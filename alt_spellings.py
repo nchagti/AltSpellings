@@ -5,8 +5,9 @@ with open(file_path, 'r', encoding='utf-8') as f:
     words = [line.strip() for line in f.readlines()]
 singular_words = [word for word in words if not word.endswith("S")]
 plural_words = [word for word in words if word.endswith("S")]
-single_word = ''
-description = '(Arabic) a cloak with a hood and wide sleeves' #the standardized description of the word that will apply to all alternate spellings
+single_word = ""
+description = "" #insert your standardized description of the word that will apply to all alternate spellings within the quotes 
+#for example, to update the alternate spellings of JELAB, you might go with '(Arabic) a cloak with a hood and wide sleeves'
 
 csv_data = []
 for word in words:
