@@ -10,4 +10,4 @@ Download the repo and make sure to edit the alt_spellings.py file to enter the f
 
 The file will save as a CSV, largely because this project was the result of a frustrated attempt at solving the GALABEYA problem---i.e. updating every godforsaken alternate spelling with the new CSW24 addition in the Crowdsourced Definitions project.
 
-This script currently only works on nouns that are pluralized with an S.
+This script currently only works on nouns that are pluralized with an S. If the root word ends in a Y, you may have to manually check the definition of its plural form to correct the root word in the csv file.
